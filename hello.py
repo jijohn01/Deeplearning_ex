@@ -1,4 +1,5 @@
 print("hello python")
+print("my name is Jisoo")
 def sigma(a):
 	i = a
 	sum = 0
