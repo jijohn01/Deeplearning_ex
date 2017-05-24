@@ -6,4 +6,4 @@ def sigma(a):
 		sum = sum + i
 		i = i-1
 	return sum
-print(sigma(5))
+print(sigma(6))
