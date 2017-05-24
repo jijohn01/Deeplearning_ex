@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 print("hello python!!!")
+=======
+print("hello python")
+print("my name is Jisoo")
+>>>>>>> test
 def sigma(a):
 	i = a
 	sum = 0
