@@ -28,5 +28,7 @@ W3 = np.array([[0.1 , 0.2],[0.4, 0.2]])
 B3 = np.array([0.2,0.1])
 
 A3 = np.dot(Z2,W3) + B3
-Y = A3 #sigma ()
+Y = func.softmax(A3) #sigma함수 == 소프트맥스 함수로
+
 print(Y)
+print(np.sum(Y))
