@@ -1,4 +1,4 @@
-Class MulLayer:
+class MulLayer:
     def __init__(self):
     	self.x = None
     	self.y = None
@@ -15,3 +15,5 @@ Class MulLayer:
         dy = dout*self.x
 
         return dx, dy
+class AddLayer:
+	
